@@ -1,20 +1,126 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.encabezado{
-    background-color: aliceblue;
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 400px;
+    height: auto;
+    background-color: aquamarine;
+    margin: 10px;
+
 
 }
-.primera{
-background-color: aliceblue;
+
+
+.encabezado {
+
+    width: 335%;
+    height: 400px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 2rem;
+    color: rgb(13, 13, 70);
+    border: #1717a8 dashed 5px;
+    
 }
-.segunda{
-    background-color: aliceblue;
+
+
+
+.menu_inicio {
+
+    font-size: 15px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu_inicio li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+.menu_inicio a {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(48, 71, 206);
+    padding: 10px;
+    margin: 50px;
+    border-radius: 5px;
+    box-shadow: 3px 3px black;
+
 
 }
-.tercera{
-    background-color: aliceblue;
 
+.menu_inicio :hover {
+    background-color: rgb(160, 47, 76);
+    border-radius: 5px;
+    
+}
+
+.contenedor2 {
+    display: inline-block;
+    width: 335%;
+    height: 1500px;
+
+
+}
+
+p {
+    text-transform: none;
+    font-size: larger;
+}
+.subtitulo h2{
+display: inline-block;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: x-large;
+text-transform: uppercase;
+
+}
+
+.primera {
+    
+    border: solid black 5px;
+    background-color: rgb(126, 170, 209);
+   font-size: 2rem;
+}
+.imagen78{
+display: inline-block;
+margin: 190px;
+
+
+}
+
+.segunda {
+    border: solid black 5px;
+    background-color: rgb(66, 114, 156);
+    font-size: 2rem;
+}
+.imagen86{
+    display: inline-block;
+    margin: 190px;
+}
+.tercera {
+    border: solid black 5px;
+    background-color: rgb(77, 117, 153);
+    font-size: 2rem; 
+}
+.imagen2022{
+    display: inline-block;
+    margin: 170px;
+}
+strong{
+font-size: large;
+
+}
+button{
+
+background-color: darkslateblue;
+color: aliceblue;
+border: solid white;
 }
