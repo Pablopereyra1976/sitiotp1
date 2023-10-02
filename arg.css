@@ -11,7 +11,7 @@ html {
 body {
     width: 400px;
     height: auto;
-    background-color: aquamarine;
+    background-color: rgb(186, 225, 235);
     margin: 10px;
 
 
@@ -58,7 +58,7 @@ body {
 }
 
 .menu_inicio :hover {
-    background-color: rgb(160, 47, 76);
+    background-color: rgb(168, 138, 146);
     border-radius: 5px;
     
 }
@@ -91,7 +91,8 @@ text-transform: uppercase;
 }
 .imagen78{
 display: inline-block;
-margin: 190px;
+margin: 160px;
+border: #1717a8 dashed 25px;
 
 
 }
@@ -103,7 +104,8 @@ margin: 190px;
 }
 .imagen86{
     display: inline-block;
-    margin: 190px;
+    margin: 175px;
+    border: #1717a8 dashed 25px;
 }
 .tercera {
     border: solid black 5px;
@@ -112,7 +114,8 @@ margin: 190px;
 }
 .imagen2022{
     display: inline-block;
-    margin: 170px;
+    margin: 155px;
+    border: #1717a8 dashed 25px;
 }
 strong{
 font-size: large;
